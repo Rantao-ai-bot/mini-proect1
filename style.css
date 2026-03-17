@@ -1,9 +1,4 @@
-<!DOCTYPE html>
-<html lang="uk">
-<head>
-  <meta charset="UTF-8">
-  <title>Мій сайт</title>
-  <style>
+
     /* Загальні стилі */
     * {
       margin: 0;
@@ -176,55 +171,4 @@
       color: #fff;
       margin-bottom: 15px;
     }
-  </style>
-</head>
-<body>
-  <header>
-    <!-- Тут твій хедер -->
-  </header>
-
-  <main>
-    <section>
-      <!-- Hero Section -->
-      <h1>Головний заголовок</h1>
-      <p>Опис...</p>
-      <button>Натисни мене</button>
-      <img src="hero.png" alt="Hero image">
-    </section>
-
-    <section>
-      <h2>Друга секція</h2>
-      <!-- Інший контент -->
-    </section>
-
-    <section>
-      <ul>
-        <li>
-          <h3>Прихований заголовок</h3>
-          <p>Текст продукту</p>
-          <button>Купити</button>
-          <img src="product.png" alt="Product">
-        </li>
-      </ul>
-    </section>
-
-    <section>
-      <img src="order.png" alt="Order section">
-      <!-- Інший контент -->
-    </section>
-
-    <section>
-      <textarea placeholder="Ваше питання"></textarea>
-    </section>
-  </main>
-
-  <footer>
-    <section>
-      <h3>Footer заголовок</h3>
-      <ul>
-        <li>Посилання</li>
-      </ul>
-    </section>
-  </footer>
-</body>
-</html>
+  
