@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Мій сайт</title>
+  <style>
+    /* Загальні стилі */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Arial', sans-serif;
+    }
+
+    body {
+      background-color: #0a0a0a;
+      color: #fff;
+      line-height: 1.5;
+    }
+
+    /* Header */
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 50px;
+    }
+
+    header nav ul {
+      display: flex;
+      gap: 25px;
+      list-style: none;
+    }
+
+    header nav ul li a {
+      text-decoration: none;
+      color: #fff;
+      font-weight: 500;
+    }
+
+    header ul li img {
+      width: 24px;
+      height: 24px;
+      margin-left: 15px;
+    }
+
+    /* Hero Section */
+    main section:first-of-type {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 50px;
+    }
+
+    main section:first-of-type img {
+      width: 400px;
+      border-radius: 20px;
+    }
+
+    main section:first-of-type h1 {
+      font-size: 48px;
+      margin: 20px 0;
+      color: #fff;
+    }
+
+    main section:first-of-type p {
+      font-size: 16px;
+      color: #ccc;
+    }
+
+    main section:first-of-type button {
+      background-color: #e91e63;
+      border: none;
+      padding: 12px 30px;
+      color: #fff;
+      font-size: 16px;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    /* Section with images and text */
+    section:nth-of-type(2) {
+      text-align: center;
+      padding: 50px;
+    }
+
+    section:nth-of-type(2) h2 {
+      font-size: 20px;
+      color: #fff;
+    }
+
+    /* Product Section */
+    section:nth-of-type(3) ul {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      list-style: none;
+      padding: 50px;
+      gap: 30px;
+    }
+
+    section:nth-of-type(3) li {
+      background-color: #111;
+      border-radius: 15px;
+      padding: 20px;
+      width: 220px;
+      text-align: center;
+    }
+
+    section:nth-of-type(3) li img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    section:nth-of-type(3) li h3 {
+      margin: 15px 0 10px 0;
+      font-size: 18px;
+      color: #fff;
+      display: none; /* приховуємо заголовки h3 */
+    }
+
+    section:nth-of-type(3) li p {
+      font-size: 14px;
+      color: #ccc;
+    }
+
+    section:nth-of-type(3) li button {
+      margin-top: 10px;
+      background-color: #e91e63;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 8px;
+      color: #fff;
+      cursor: pointer;
+    }
+
+    /* Order Section */
+    section:nth-of-type(4) {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      padding: 50px;
+      text-align: center;
+    }
+
+    section:nth-of-type(4) img {
+      width: 200px;
+    }
+
+    /* Question Section */
+    section:nth-of-type(5) {
+      text-align: center;
+      padding: 50px;
+    }
+
+    section:nth-of-type(5) textarea {
+      width: 60%;
+      padding: 12px;
+      border-radius: 8px;
+      border: none;
+      margin: 20px 0;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #111;
+      padding: 50px;
+      color: #ccc;
+    }
+
+    footer section ul {
+      list-style: none;
+    }
+
+    footer section h3 {
+      color: #fff;
+      margin-bottom: 15px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <!-- Тут твій хедер -->
+  </header>
+
+  <main>
+    <section>
+      <!-- Hero Section -->
+      <h1>Головний заголовок</h1>
+      <p>Опис...</p>
+      <button>Натисни мене</button>
+      <img src="hero.png" alt="Hero image">
+    </section>
+
+    <section>
+      <h2>Друга секція</h2>
+      <!-- Інший контент -->
+    </section>
+
+    <section>
+      <ul>
+        <li>
+          <h3>Прихований заголовок</h3>
+          <p>Текст продукту</p>
+          <button>Купити</button>
+          <img src="product.png" alt="Product">
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <img src="order.png" alt="Order section">
+      <!-- Інший контент -->
+    </section>
+
+    <section>
+      <textarea placeholder="Ваше питання"></textarea>
+    </section>
+  </main>
+
+  <footer>
+    <section>
+      <h3>Footer заголовок</h3>
+      <ul>
+        <li>Посилання</li>
+      </ul>
+    </section>
+  </footer>
+</body>
+</html>
